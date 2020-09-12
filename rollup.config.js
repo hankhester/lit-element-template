@@ -98,7 +98,6 @@ const configs = [
 
 for (const config of configs) {
   if (process.env.NODE_ENV !== 'development') {
-    console.log('production build!');
     config.plugins.push(terser());
   }
   config.plugins.push(filesize(filesizeConfig));
