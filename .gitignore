@@ -1,3 +1,4 @@
 /node_modules/
 /tsc-output/
 /dist/
+/dev/tsc-output/

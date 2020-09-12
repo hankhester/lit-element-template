@@ -7,11 +7,13 @@
       name="viewport"
       content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes"
     />
-
-    <title>Anki Vocab Helper</title>
-    <meta name="description" content="Anki Vocab Helper" />
+    <title>LitElement App</title>
+    <meta name="description" content="A really cool app using LitElement" />
+    <!-- <link rel="shortcut icon" sizes="32x32" href="images/app-icon-32.png" /> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LitElement App" />
     <meta name="theme-color" content="#fff" />
-    <!-- <link rel="manifest" href="manifest.json" /> -->
+    <link rel="manifest" href="manifest.json" />
 
     <style>
       body {
@@ -21,25 +23,11 @@
         line-height: 1.5;
         min-height: 100vh;
       }
-
-      /* styling for render while resources are loading */
-      /* shop-app[unresolved] {
-        display: block;
-        min-height: 101vh;
-        line-height: 68px;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-        padding: 0 16px;
-        overflow: visible;
-      } */
     </style>
   </head>
   <body>
     <app-root></app-root>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script type="module" src="../tsc-output/components/app-root.js"></script>
+    <script type="module" src="dev/tsc-output/components/app-root.js"></script>
   </body>
 </html>
